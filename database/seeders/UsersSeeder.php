@@ -16,21 +16,21 @@ class UsersSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'nama_pengguna' => 'admin',
-                'username' => 'admin',
+                'nama_pengguna' => 'ifka',
+                'username' => 'ifka',
                 'password' => bcrypt('admin'),
-                'no_hp' => '081234567890',
+                'no_hp' => '08125478965',
                 'no_ktp' => '1234567890123456',
-                'alamat' => 'Jl. Raya No. 1',
+                'alamat' => 'Jl. Arimbi No. 54',
                 'role' => 'admin',
             ],
             [
-                'nama_pengguna' => 'dokter',
-                'username' => 'dokter',
+                'nama_pengguna' => 'dr. Wahyu',
+                'username' => 'dr. Wahyu',
                 'password' => bcrypt('dokter'),
                 'no_hp' => '081234567890',
                 'no_ktp' => '1234567890123456',
-                'alamat' => 'Jl. Raya No. 1',
+                'alamat' => 'Jl. Kelud No. 122',
                 'role' => 'dokter',
             ]
         ]);
