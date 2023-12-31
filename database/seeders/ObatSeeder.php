@@ -16,19 +16,19 @@ class ObatSeeder extends Seeder
     {
         DB::table('obats')->insert([
             [
-                'nama_obat' => 'Paramex',
+                'nama_obat' => 'Neuralgin',
                 'kemasan' => 'Strip',
-                'harga' => '5500',
+                'harga' => '10000',
             ],
             [
-                'nama_obat' => 'Paracetamol',
-                'kemasan' => 'Strip',
-                'harga' => '20000',
-            ],
-            [
-                'nama_obat' => 'Citirizen',
+                'nama_obat' => 'Panadol',
                 'kemasan' => 'Strip',
                 'harga' => '5000',
+            ],
+            [
+                'nama_obat' => 'kalmethasone',
+                'kemasan' => 'Strip',
+                'harga' => '7000',
             ]
         ]);
     }
