@@ -20,16 +20,16 @@ class PoliSeeder extends Seeder
                 'keterangan' => 'Poli Umum',
             ],
             [
-                'nama_poli' => 'Gigi',
-                'keterangan' => 'Poli Gigi',
+                'nama_poli' => 'Kandungan',
+                'keterangan' => 'Poli Kandungan',
             ],
             [
                 'nama_poli' => 'Anak',
                 'keterangan' => 'Poli Anak',
             ],
             [
-                'nama_poli' => 'Kandungan',
-                'deskripsi' => 'Poli Kandungan',
+                'nama_poli' => 'Penyakit Dalam',
+                'deskripsi' => 'Poli Penyakit Dalam',
             ],
 
         ]);
